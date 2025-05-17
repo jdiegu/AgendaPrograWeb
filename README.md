@@ -9,7 +9,6 @@ Aplicación web de una agenda telefónica.
 - [Descripción](#descripción)
 - [Captura de pantalla inicial](#pantalla-inicial)
 - [Instalación y ejecución](#instalación-y-ejecución)
-- [Usuarios de prueba](#usuarios-de-prueba)
 - [Información de contacto](#información-de-contacto)
 
 ---
@@ -21,10 +20,9 @@ Aplicación web de una agenda telefónica.
 La aplicación permite:
 
 - Crear, leer, actualizar y eliminar contactos.
-- Restringir funciones según el rol del usuario.
-- Operar en un entorno local configurado mediante XAMPP.
+- Manejo de usuarios Administrador y Visualizadores con diferentes funciones.
 
-> **Nota:** Este proyecto fue desarrollado con fines académicos para la asignatura de Programación Web.
+> Este proyecto fue desarrollado con fines académicos para la asignatura de Programación Web.
 
 ---
 
@@ -49,7 +47,7 @@ La aplicación permite:
 5. Cree una nueva base de datos (preferentemente con el nombre `agendamodelos`).
 6. Use la opción **Importar** y seleccione el archivo `agendamodelos.sql` para cargar la estructura y datos.
 7. Acceda a la aplicación desde su navegador con la URL: [http://localhost/AgendaPrograWeb/](http://localhost/AgendaPrograWeb/) o la direccion del proyecto donde se guardo.
-8. Verifique que los datos en el archivo de 'models/AccesoDatos.php' este correcto de acuerdo a su servicio y nombre de la base de datos.
+8. Verifique que los datos en el archivo de [`models/AccesoDatos.php`](./models/AccesoDatos.php) este correcto de acuerdo a su servicio y nombre de la base de datos.
 9. ¡Listo! Puede comenzar a utilizar la aplicación.
    - El usuario administrador tiene la clave `1` y contraseña `1234`. \
      Un usuario visualizador es el de clave `2` y contraseña `abcd`.
