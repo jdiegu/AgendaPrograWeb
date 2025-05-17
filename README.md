@@ -1,13 +1,13 @@
 # CRUD Contactos
 
-Aplicación web de una agenda telefónica, con manejo de contactos y gestión de usuarios mediante un sistema de roles.
+Aplicación web de una agenda telefónica.
 
 ---
 
 ## Tabla de contenido
 
 - [Descripción](#descripción)
-- [Captura de pantalla](#captura-de-pantalla)
+- [Captura de pantalla inicial](#pantalla-inicial)
 - [Instalación y ejecución](#instalación-y-ejecución)
 - [Usuarios de prueba](#usuarios-de-prueba)
 - [Información de contacto](#información-de-contacto)
@@ -28,7 +28,7 @@ La aplicación permite:
 
 ---
 
-## Captura de pantalla
+## Pantalla inicial
 
 ![Pantalla inicial](https://github.com/user-attachments/assets/484f4697-3281-4a14-906b-6a51a3499d16)
 
@@ -49,18 +49,12 @@ La aplicación permite:
 5. Cree una nueva base de datos (preferentemente con el nombre `agendamodelos`).
 6. Use la opción **Importar** y seleccione el archivo `agendamodelos.sql` para cargar la estructura y datos.
 7. Acceda a la aplicación desde su navegador con la URL: [http://localhost/AgendaPrograWeb/](http://localhost/AgendaPrograWeb/) o la direccion del proyecto donde se guardo.
-8. ¡Listo! Puede comenzar a utilizar la aplicación.
+8. Verifique que los datos en el archivo de 'models/AccesoDatos.php' este correcto de acuerdo a su servicio y nombre de la base de datos.
+9. ¡Listo! Puede comenzar a utilizar la aplicación.
+   - El usuario administrador tiene la clave `1` y contraseña `1234`. \
+     Un usuario visualizador es el de clave `2` y contraseña `abcd`.
 
 > **Importante:** Verifique que los servicios de Apache y MySQL estén activos desde el panel de control de XAMPP.
-
-> **Sugerencia:** Asegúrese de que el nombre de la base de datos coincida con el especificado en el archivo de conexión de la aplicación (`config/db.php` o similar).
-
----
-
-## Usuarios de prueba
-
-El usuario administrador tiene la clave `1` y contraseña `1234`.  
-Un usuario visualizador es el de clave `2` y contraseña `abcd`.
 
 ---
 
