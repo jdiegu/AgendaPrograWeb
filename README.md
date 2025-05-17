@@ -17,8 +17,8 @@ Requisitos: Tener instalado XAMPP
 7. Listo, puede probar la aplicacion, el usuario administrador tiene la clave '1' y contraseña '1234', un usuario visualizador es el de clave '2' y contraseña 'abcd'
 
 ## Informacion de contacto
-Morales Vazquez Juan Diego 
-Numero de control: 22010969
-Programacion WEB 12-13
+Morales Vazquez Juan Diego \
+Numero de control: 22010969 \
+Programacion WEB 12-13 \
 Docente: 
 
