@@ -61,6 +61,4 @@ La aplicación permite:
 **Nombre:** Morales Vázquez Juan Diego  
 **Número de control:** 22010969  
 **Materia:** Programación Web (Horario 12-13 h)  
-**Docente:** *(Complete con el nombre del profesor)*
-
 ---
